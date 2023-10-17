@@ -25,13 +25,13 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "post"
 
 # Enable GitHub Pages support
 remote_theme: "mmistakes/minimal-mistakes"
