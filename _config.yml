@@ -1,0 +1,33 @@
+# Site settings
+title: Your Site Title
+description: A simple Jekyll site
+baseurl: "" # the subpath of your site, e.g., /blog/
+url: "https://lyserg.io"
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+permalink: /:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Enable GitHub Pages support
+remote_theme: "mmistakes/minimal-mistakes"
+
