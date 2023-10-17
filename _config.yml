@@ -1,4 +1,3 @@
-# Site settings
 title: Your Site Title
 description: A simple Jekyll site
 baseurl: "" # the subpath of your site, e.g., /blog/
@@ -8,6 +7,12 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 permalink: /:title/
 
