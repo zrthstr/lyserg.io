@@ -2,6 +2,7 @@ title: Your Site Title
 description: A simple Jekyll site
 baseurl: "" # the subpath of your site, e.g., /blog/
 url: "https://lyserg.io"
+data-theme: dark
 
 markdown: kramdown
 theme: minima

@@ -28,7 +28,7 @@ while getopts "w" opt; do
         w)
             while true; do
                 check_status
-                sleep 1
+                sleep 3
             done
             ;;
         \?)
