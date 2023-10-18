@@ -3,7 +3,7 @@ layout: post
 title: sudo systemctl LPE
 tags: sudo systemd systemctl privilege escalation linux pentest vulnerability LPE PoC
 ---
-Brief PoC showing the exploitation of an insecure sudo rule for journalctl, found in the wild.
+### Brief PoC showing the exploitation of an insecure sudo rule for journalctl, found in the wild.
 
 Many of the sudo rules encountered in the wild are insecure. This is one such example.
 Any other program printing its output via the pager `less` will also be vulnerable.
