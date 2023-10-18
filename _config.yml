@@ -24,6 +24,6 @@ permalink: /:title/
 #    values:
 #      layout: "post"
 
-# Enable GitHub Pages support
-remote_theme: "mmistakes/minimal-mistakes"
+#remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "DavideBri/Gesko"
 
