@@ -5,7 +5,9 @@ url: "https://lyserg.io"
 data-theme: dark
 
 markdown: kramdown
-theme: minima
+#theme: minima
+# syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
