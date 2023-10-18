@@ -28,5 +28,5 @@ permalink: /:title/
 #      layout: "post"
 
 #remote_theme: "mmistakes/minimal-mistakes"
-#remote_theme: "DavideBri/Gesko"
+remote_theme: "DavideBri/Gesko"
 
