@@ -4,8 +4,9 @@ baseurl: "" # the subpath of your site, e.g., /blog/
 url: "https://lyserg.io"
 data-theme: dark
 
+
 markdown: kramdown
-#theme: minima
+theme: dark
 # syntax_highlighter: rouge
 
 plugins:
